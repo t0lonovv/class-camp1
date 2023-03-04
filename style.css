@@ -1,0 +1,833 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#header {
+    padding: 25px 0;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.56);
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav h1 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 84px;
+}
+
+.header-nav a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin: 0 26px;
+    transition: .5s;
+}
+
+.header-nav a:hover {
+    color: blue;
+    text-decoration-line: underline;
+}
+.header-btn button {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px 30px;
+    background: red;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 2px solid red;
+}
+
+.header-btn button:hover{
+    background: transparent;
+    border: 2px solid red;
+    color: #ef1111;
+}
+
+#hero{
+    background: black;
+    padding: 60px 0;
+}
+
+.hero h1{
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 56px 0 44px 0;
+}
+
+.hero p{
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-btn button{
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: #FF4343;
+    padding: 15px 27px;
+    margin: 73px 0 19px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-btn button ion-icon{
+    padding-left: 14px;
+
+}
+
+.hero-btn span{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.hero-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+    position: relative;
+}
+
+.hero-img-two {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+#shoot{
+    background: #121118;
+    padding: 40px 0;
+}
+
+.shoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.shoot-text h1{
+    width: 442px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-bottom: 38px;
+}
+
+.shoot-text p{
+    width: 452px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.shoot-img{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.shoot-img-two{
+    position: absolute;
+    top: -75px;
+    right: -60px;
+
+}
+
+#Enrich {
+    background: #121118;
+    padding: 40px;
+}
+
+.Enrich h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #FFFFFF;
+    width: 462px;
+}
+
+.Enrich p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 524px;
+    padding: 38px 0 0 0;
+}
+
+.Enrich{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-img{
+    position: relative;
+    width: 45%;
+}
+
+.foto-7{
+    position: absolute;
+    flex: 0;
+}
+
+.text-r{
+    width: 45%;
+    margin-left: 300px;
+}
+
+.text-r span{
+    color: white;
+    font-weight: 700;
+}
+
+#add{
+    background: #121118;
+    padding: 40px 0;
+}
+
+.add-text h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.add-text p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 526px;
+}
+
+.add-text p span{
+    color: white;
+    font-weight: 700;
+
+}
+
+.add-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 571px;
+    height: 367px;
+    background: #404040;
+    border-radius: 20px;
+}
+
+.add{
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.block-1{
+    margin: 10px 0;
+    width: 85%;
+    height: 80px;
+    background: #171515;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(255, 67, 67, 0.29) 10px 7px 15px 7px;
+}
+
+.icon-block{
+    width: 40px ;
+    height: 40px;
+    background: #2d2d2e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+
+}
+
+.block-text h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.block-text p{
+    color: rgba(255, 255, 255, 0.5);
+    /*font-style: 16px;*/
+    font-weight: 500;
+
+}
+
+
+.block-1 button{
+    padding: 12px 30px;
+    color: transparent;
+    background: #fd435b;
+    border-radius: 20px;
+}
+
+#link{
+    background: #121118;
+    padding: 40px 0;
+}
+
+.link{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+
+.link-tw ion-icon{
+    color: red;
+}
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block{
+    width: 526px;
+    height: 350px;
+    border-radius: 30px;
+    background: #2d2d2e;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: .50s;
+
+}
+
+.link-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link-btn ion-icon{
+    width: 50px;
+    height: 35px;
+}
+
+.btn-you button{
+    position: absolute;
+    bottom: 0;
+    right: 385px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+
+
+.btn-ins button{
+    position: absolute;
+    bottom: 0;
+    right: 330px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #c1017f;
+    color: white;
+}
+.btn-ins button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-tw button{
+    position: absolute;
+    bottom: 0;
+    right: 275px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #8241f6;
+    color: white;
+}
+.btn-tw button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-tik button{
+    position: absolute;
+    bottom: 0;
+    right: 220px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #040305;
+    color: white;
+}
+.btn-tik button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-twi button{
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #0686ce;
+    color: white;
+}
+.btn-twi button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-lin button{
+    position: absolute;
+    bottom: 0px ;
+    right: 110px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #006698;
+    color: white;
+}
+.btn-lin button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-email button{
+    position: absolute;
+    bottom: 0;
+    right: 55px;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #234c56;
+    color: white;
+}
+.btn-email button:hover{
+    transform: translateY(-15px);
+}
+
+.btn-wha button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 15px 220px 0;
+    border-radius: 5px;
+    background: #67e364;
+    color: white;
+}
+.btn-wha button:hover{
+    transform: translateY(-15px);
+}
+
+.link-text{
+    margin-left: 133px;
+}
+.link-text h1{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.link-text p{
+    width: 530px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link-text p span{
+    color: white;
+    font-weight: 600;
+}
+
+.btn-you button:hover{
+    transform: translateY(-15px);
+}
+
+#best{
+    background: #121118;
+    padding: 40px 0;
+ }
+
+.best h1{
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 83px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 510px;
+    margin: 0 auto;
+}
+
+.best-line{
+    width: 150px;
+    height: 4px;
+    background: #ef1111;
+    margin: 38px auto 34px auto;
+}
+
+.best p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    width: 617px;
+    margin: 0 auto;
+
+}
+
+.best-img{
+    position: relative;
+    margin: 0 10px;
+}
+
+.best-blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 89px;
+}
+
+.best-block-text{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 39px;
+}
+
+.best-block-text h2{
+    width: 181px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.best-block-text h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 174px;
+
+}
+.best-img h6 {
+    color: white;
+}
+
+#offer{
+    background: #121118;
+    padding: 40px 0 0 0;
+}
+
+.offer-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer-text h4{
+    width: 221px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #8BFFB0;
+}
+
+.offer-text h1{
+    width: 787px;
+    margin: 21px 0 32px 0;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer-text p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    width: 904px;
+}
+
+.offer-img{
+    margin: 70px;
+    animation: offer 3s infinite linear;
+}
+
+@keyframes offer {
+    0%{
+        opacity: 0;
+    }
+}
+
+.offer-block{
+    width: 80%;
+    margin: 0 auto;
+    height: 433px;
+    background: #1D1B24;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer-block h1{
+    font-weight: 400;
+    font-size: 63px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.offer-block p{
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.offer-block button{
+    padding: 15px 25px;
+    background: #FF4343;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+}
+
+.offer-block button ion-icon{
+    font-size: 40px;
+    padding: 0 23px;
+}
+
+/*//////////////*/
+
+#can{
+    background: url("./img/can.svg") no-repeat center/cover;
+    min-height: 60vh;
+}
+
+.can-block{
+    background: linear-gradient(180deg, #1D1B24 0%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.can{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.can h1{
+    width: 701px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    color: #FFFFFF;
+    padding: 141px 0 14px 0;
+}
+
+.can p{
+    font-weight: 400;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#courses {
+
+    background: #0A0A0A;
+    padding: 40px 0;
+}
+
+.courses-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.courses-gen{
+    font-weight: 400;
+    font-size: 58px;
+    color: #FFFFFF;
+    margin: 120px 0 109px 0;
+}
+
+.courses-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.courses-block-img{
+    position: relative;
+}
+
+.courses-block-img-text{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.courses-block-img-text h2{
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+    bottom: 18px;
+    padding: 0 0 13px 13px;
+}
+
+.courses-block-img-text div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.courses-block-img-text div h4{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.courses-block-img-text div ion-icon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.courses-block-one{
+    position: relative;
+    width: 400px;
+    height: 439px;
+    background: #85E9A5;
+    /*box-shadow: rgba(255, 255, 255, 0.06);*/
+}
+
+.courses-block-one h2{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #15158d;
+    padding: 30px 81px 0 30px;
+
+}
+
+.courses-block-one h1{
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 0 0 23px 30px;
+
+}
+
+.courses-block-one p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 0 0 0 30px;
+    width: 302px;
+}
+
+.courses-block-one div{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.courses-block-one div h2{
+    position: absolute;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-block-one div h2 ion-icon{
+    padding-left: 24px;
+    font-size: 30px;
+}
+
+.courses-blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
